@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bvLeft"
+        style="@style/operation_btn"
+        android:text="@string/action_left" />
+
+    <Button
+        android:id="@+id/bvRight"
+        style="@style/operation_btn"
+        android:text="@string/action_right" />
+
+    <Button
+        android:id="@+id/bvTransform"
+        style="@style/operation_btn"
+        android:text="@string/action_transform" />
+
+    <Button
+        android:id="@+id/bvDown"
+        style="@style/operation_btn"
+        android:text="@string/action_down" />
+
+</LinearLayout>

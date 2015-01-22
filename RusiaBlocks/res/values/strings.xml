@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RusiaBlocks</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sel_bkg">选择背景色</string>
+    <string name="action_feedback">反馈</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="oriention_land">横屏</string>
+    <string name="oriention_port">竖屏</string>
+    <string name="action_left">左</string>
+    <string name="action_right">右</string>
+    <string name="action_down">下</string>
+    <string name="action_transform">变</string>
+    <string name="action_start">开始</string>
+   	<string name="action_pause">暂停</string>
+    
+   	<string name="action_restart">重新开始</string>
+   	<string name="action_quit">退出</string>
+    <string name="game_over">OoH， 游戏结束</string>
+    <string name="exit_after_next_click">再按一次退出游戏</string>
+    
+    <string name="bkg_color">背景色</string>
+    <string name="screen_direction">屏幕方向</string> 
+    <string name="help_info"></string>
+    
+    <string name="new_local_game">单人游戏</string>
+    <string name="new_competion_game">联网对战</string>
+    <string name="join_game">加入游戏</string>
+    <string name="test_mode">自测试</string>
+    
+    <string name="quit_game_check">您要放弃对战？</string>
+    <string name="quit_game">放弃</string>
+    <string name="continue_game">继续</string>
+
+</resources>

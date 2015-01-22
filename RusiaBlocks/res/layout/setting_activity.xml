@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/bkg_color_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="@string/bkg_color"
+            android:gravity="center" />
+        
+        <ImageView
+            android:id="@+id/bkg_color"
+            android:layout_width="20dp"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true" 
+            android:layout_alignParentRight="true"
+            android:src="#FFFF0000" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/screen_direction_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true" 
+            android:text="@string/screen_direction"
+            android:gravity="center" />
+        
+        <TextView
+            android:id="@+id/ivScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true" 
+            android:layout_alignParentRight="true"
+            android:text="@string/oriention_land"
+            android:gravity="center"
+            android:textColor="@color/text_dark" />
+    </RelativeLayout>
+    
+    <ListView
+        android:id="@+id/test_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

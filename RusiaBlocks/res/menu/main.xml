@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_feedback"/>
+
+    <item
+        android:id="@+id/action_roate"
+        android:orderInCategory="99"
+        android:showAsAction="never"
+        android:title="@string/oriention_land"/>
+    
+    <item
+        android:id="@+id/action_sel_bkg"
+        android:orderInCategory="98"
+        android:showAsAction="never"
+        android:title="@string/action_sel_bkg"/>
+</menu>

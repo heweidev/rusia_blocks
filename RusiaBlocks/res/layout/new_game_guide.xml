@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <Button 
+        android:id="@+id/btLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_local_game" />
+    
+    <Button 
+        android:id="@+id/btBuild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_competion_game" />
+    
+    <Button 
+        android:id="@+id/btJoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/join_game" />
+    
+    <Button
+        android:id="@+id/btTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_mode" />
+    
+    <TextView 
+        android:id="@+id/tvLog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
